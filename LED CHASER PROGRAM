@@ -1,0 +1,15 @@
+void setup()
+{for(int i=8;i<=13;i++)
+ { pinMode(i,OUTPUT);
+}}
+
+void loop() 
+{for(int i=0;i<=1000;i++)
+{
+digitalWrite(8, HIGH);
+delay(1000);
+digitalWrite(8, LOW);
+}for(int i=0;i<=2000;i++)
+{
+digitalWrite(9, HIGH);
+delay(1000);
